@@ -4,38 +4,38 @@ import React from 'react'
 const Dashboard = () => {
   return (
     <div className="container mx-auto px-4 py-8">
-      <div className="bg-white rounded-lg shadow-md p-6">
-        <h1 className="text-3xl font-bold text-gray-800 mb-4">
+      <div className="bg-card rounded-lg shadow-md p-6 border border-border">
+        <h1 className="text-3xl font-bold text-card-foreground mb-4">
           Tela1m - Dashboard
         </h1>
-        <p className="text-gray-600 mb-6">
+        <p className="text-muted-foreground mb-6">
           Aplicação de controle - Dashboard principal
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
-            <h3 className="text-lg font-semibold text-blue-800 mb-2">
+          <div className="bg-primary/5 p-4 rounded-lg border border-primary/20 hover:bg-primary/10 transition-colors">
+            <h3 className="text-lg font-semibold text-primary mb-2">
               Módulo 1
             </h3>
-            <p className="text-blue-600">
+            <p className="text-primary/80">
               Funcionalidade em desenvolvimento
             </p>
           </div>
           
-          <div className="bg-green-50 p-4 rounded-lg border border-green-200">
-            <h3 className="text-lg font-semibold text-green-800 mb-2">
+          <div className="bg-secondary p-4 rounded-lg border border-border hover:bg-secondary/80 transition-colors">
+            <h3 className="text-lg font-semibold text-secondary-foreground mb-2">
               Módulo 2
             </h3>
-            <p className="text-green-600">
+            <p className="text-muted-foreground">
               Funcionalidade em desenvolvimento
             </p>
           </div>
           
-          <div className="bg-purple-50 p-4 rounded-lg border border-purple-200">
-            <h3 className="text-lg font-semibold text-purple-800 mb-2">
+          <div className="bg-muted p-4 rounded-lg border border-border hover:bg-muted/80 transition-colors">
+            <h3 className="text-lg font-semibold text-card-foreground mb-2">
               Módulo 3
             </h3>
-            <p className="text-purple-600">
+            <p className="text-muted-foreground">
               Funcionalidade em desenvolvimento
             </p>
           </div>
